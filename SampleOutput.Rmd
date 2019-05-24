@@ -1,0 +1,41 @@
+---
+title: "SREP Business Dashboard"
+output: flexdashboard::flex_dashboard
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Management Summary
+
+## Analyse des Kreditportfolios
+
+### Grafik 1
+
+### Grafik 2
+
+### Grafik 3
+
+
+## 
+Aktuelle Situation
+
+Schwerpunktthemen
+
+Handlungsempfehlungen
+
+# Portfoliozusammensetzung
+
+
+# Portfolioqualität
+
+
+# Leistungsgestörtes Portfolio
+
+
+
+
+
+
+
