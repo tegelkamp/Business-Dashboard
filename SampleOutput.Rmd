@@ -1,17 +1,21 @@
 ---
 title: "SREP Business Dashboard"
-output: flexdashboard::flex_dashboard
+output: 
+  flexdashboard::flex_dashboard:
+    storyboard: true
+    social: menu
+    source: embed
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+library(flexdashboard)
 ```
 
 # Management Summary
 
 ## Analyse des Kreditportfolios
 
-### Grafik 1
+### Kreditvolumen und Besicherung
 
 ### Grafik 2
 
@@ -19,11 +23,20 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ## 
-Aktuelle Situation
+**Aktuelle Situation**
 
-Schwerpunktthemen
+Die aktuelle Situation ist gekennzeichnet durch folgende herausragende 
+Sachverhalte:
 
-Handlungsempfehlungen
+- Beispiel 1
+
+- Beispiel 2
+
+-  ...
+
+**Schwerpunktthemen**
+
+**Handlungsempfehlungen**
 
 # Portfoliozusammensetzung
 
